@@ -8,7 +8,7 @@ Get the gzip'ed tar file and type 'tar xvzf baolab-x.y.z.tar.gz', where x.y.z is
 
 Type 'make' in order to build BAOlab. You need gcc and the X11 libraries (R5 or later). You may have to edit the Makefile if your X11 libraries are not installed in /usr/X11 (for example, /usr/X11R6).
 
-Type 'setenv BLPATH <wherever baolab is located on your disk>' - assuming you use a c-shell. For bash it would be 'export BLPATH=<wherever baolab is located on your disk>'. This makes it possible to access the parameter and help files also if you change to another directory. You may want to put this command in your .cshrc file (or .profile, .bashrc, .tcshrc, .login, or whatever) so you don't have to worry about it each time you want to run BAOlab.
+Type 'setenv BLPATH wherever baolab is located on your disk' - assuming you use a c-shell. For bash it would be 'export BLPATH=wherever baolab is located on your disk'. This makes it possible to access the parameter and help files also if you change to another directory. You may want to put this command in your .cshrc file (or .profile, .bashrc, .tcshrc, .login, or whatever) so you don't have to worry about it each time you want to run BAOlab.
   
 Enter BAOlab by typing 'bl' - and have fun! There is a demo picture called 'demo.fts'. Type 'help baolab' for more information.
 
