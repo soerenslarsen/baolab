@@ -37,7 +37,7 @@ The recommended way to compile BAOlab is with gcc. Other compilers may work as w
 
 BAOlab does not have a sophisticated scripting language, but it does allow you to execute commands in a simple batch-mode.  More info can be found in the help file, baolab.hlp. To read about syntax, scripts etc. type 'help syntax' at the BAOlab prompt.
 
-The code is pretty standard C code and should compile on most platforms. Over the years, I have successfully compiled and used BAOlab on Sun, Linux, SGI, HP, DEC alpha, Apple Powerbooks/Macbooks, and under Windows/Cygwin. However, I won't guarantee that any particular version of the code will compile or run on all of these platforms. I have noticed that things sometimes tend to break when compiled with newer versions of gcc. I try to fix this when I become aware of it. 
+The code is pretty standard C code and should compile on most platforms. Over the years, I have successfully compiled and used BAOlab on Sun, Linux, SGI, HP, DEC alpha, Apple Powerbooks/Macbooks, and under Windows/Cygwin. However, I won't guarantee that any particular version of the code will compile or run on all of these platforms. It seems that gcc is becoming ever less forgiving and things sometimes tend to break when compiled with newer versions. I try to fix this when I become aware of it. 
 
 Beware of the '.blrc' file - this file contains commands to be executed at start-up time and should be located in your BAOlab-home directory.
 
