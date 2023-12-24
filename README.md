@@ -1,6 +1,6 @@
 # baolab
 
-Important note: ISHAPE gives wrong results when compiled with gcc13 (at least on MacOS). For now, the workaround is to compile BAOlab with clang or older versions of gcc (gcc12 seems to work fine).
+Important note: ISHAPE gives wrong results when compiled with gcc13 and the -O2 optimisation option (at least on MacOS). For now, workarounds are: 1) to compile BAOlab with clang, 2) use older versions of gcc (gcc12 seems to work fine, 3) compile without the -O2 option enabled.
 
 From this page you can download my image processing program, BAOlab. This includes, among other things, the Ishape task for size measurements of compact sources (Larsen 1999, A&AS 139, 393) and the mksynth task for generation of synthetic images with realistic noise characteristics.
 
