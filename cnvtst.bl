@@ -1,0 +1,5 @@
+mkgrad src.fits 15 15 10 0 0
+imrep src.fits 6 8 6 8 20
+mkgrad kern.fits 15 15 0 0 0
+imrep kern.fits 6 8 6 8 10
+imconvol src.fits kern.fits cnv.fits
