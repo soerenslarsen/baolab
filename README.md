@@ -5,7 +5,7 @@ To test whether your version of bl works properly, run the test script cnvtst.bl
 
 bl < cnvtst.bl
 
-This should produce an output image that looks like the image cnv_good.fits, and not like cnv_bad.fits.
+The output should look like the image cnv_good.fits, not like cnv_bad.fits.
 
 From this page you can download my image processing/analysis program, BAOlab. This includes, among other things, the Ishape task for size measurements of compact sources (Larsen 1999, A&AS 139, 393) and the mksynth task for generation of synthetic images with realistic noise characteristics.
 
