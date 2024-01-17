@@ -1,7 +1,7 @@
 # baolab
 
 Important note: ISHAPE gives wrong results when compiled with gcc13 and the -O2 optimisation option (at least on MacOS). For now, possible workarounds are:  1) use older versions of gcc (gcc12 seems to work fine), 2) compile without the -O2 option enabled, 3) compile BAOlab with clang.
-To test whether your version of bl works properly, run the test script cnvtst.bl:
+To test whether your version of bl works correctly, run the test script cnvtst.bl:
 
 bl < cnvtst.bl
 
